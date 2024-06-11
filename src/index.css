@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    scroll-behavior: smooth;
+}
+
+#root {
+    /* background: rgb(58,57,88); */
+    background: rgba(0, 0, 0, 0.688);
+    /* background: linear-gradient(43deg, rgba(58,57,88,0.8683122907366072) 7%, rgba(44,39,55,0.7646708341539741) 52%, rgba(106,100,145,1) 100%); */
+}
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    /* font-optical-sizing: auto; */
+    font-weight: 700;
+    font-style: normal;
+}
+
+.cedarville-cursive-regular {
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cedarville-cursive-bold {
+    font-weight: 700;
+}
+
+.montserrat-light {
+    font-weight: 400;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    height: auto;
+    margin-right: 2px;
+}
+
+::-webkit-scrollbar-track {
+    background: none;
+    opacity: 0;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #636060;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 5px;
+    height: auto;
+    margin-right: 2px;
+}
+
+@media(prefers-reduced-motion:no-preference) {
+    .fade-in-animation {
+        scale: .5;
+        opacity: 0;
+        animation: fade-in linear forwards;
+        animation-timeline: view();
+        animation-range: 0vh 70vh;
+    }
+
+    @keyframes fade-in {
+        to {
+            scale: 1;
+            opacity: 1;
+        }
+    }
+
+}
+
+nav a:target {
+    animation: scale-up 0.3s forwards;
+}
+
+@keyframes scale-up {
+    to {
+        transform: scale(1.25);
+        background-color: aqua;
+    }
+}
+
+/* .scale-up-animation {
+    scale: 1;
+    animation: scale-up 0.2s forwards;
+    animation-timeline: view();
+    animation-range: 0vh 70vh;
+}
+
+@keyframes scale-up {
+    to {
+        transform: scale(1.25);
+    }
+} */
