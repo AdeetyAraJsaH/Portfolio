@@ -19,23 +19,23 @@ function Projects() {
         </span>
       </p>
       <div className='montserrat grid sm:grid-cols-2 gap-12'>
-        <ProjectItem src={ToDo} title='ToDo' to={'https://github.com/AdeetyAraJsaH/toDo'}>
+        <ProjectItem src={ToDo} title='ToDo' url={'https://todoodler.netlify.app/'} git={'https://github.com/AdeetyAraJsaH/toDo'}>
           <SiExpress size={25} color='white' />
           <FaReact size={25} color="#61DAFB" />
           <FaNodeJs size={25} color="#68A063" />
         </ProjectItem>
-        <ProjectItem src={QuickTrivia} title='QuickTrivia' to={'https://github.com/AdeetyAraJsaH/QuickTrivia'} >
+        <ProjectItem src={QuickTrivia} title='QuickTrivia' url={'https://quick-e-trivia.netlify.app/'} git={'https://github.com/AdeetyAraJsaH/QuickTrivia'} >
           <SiMongodb size={25} color="#47A248" />
-          <SiExpress size={25} color='white'/>
+          <SiExpress size={25} color='white' />
           <FaReact size={25} color="#61DAFB" />
           <FaNodeJs size={25} color="#68A063" />
         </ProjectItem>
-        <ProjectItem src={BookReview} title='Book Review (Backend)' to={'https://github.com/AdeetyAraJsaH/bookReviewsWithExpress'} >
-          <SiExpress size={25} color='white'/>
+        <ProjectItem src={BookReview} title='Book Review (Backend)' url={'https://github.com/AdeetyAraJsaH/bookReviewsWithExpress'} git={'https://github.com/AdeetyAraJsaH/bookReviewsWithExpress'} >
+          <SiExpress size={25} color='white' />
           <FaNodeJs size={25} color="#68A063" />
         </ProjectItem>
-        <ProjectItem src={moneyconvertor} title='Money Convertor' to={'https://github.com/AdeetyAraJsaH/currencyConvertor'} >
-          <SiExpress size={25} color='white'/>
+        <ProjectItem src={moneyconvertor} title='Money Convertor' url={'https://money-convertor001.netlify.app/'} git={'https://github.com/AdeetyAraJsaH/currencyConvertor'} >
+          <SiExpress size={25} color='white' />
           <FaReact size={25} color="#61DAFB" />
           <FaNodeJs size={25} color="#68A063" />
         </ProjectItem>
