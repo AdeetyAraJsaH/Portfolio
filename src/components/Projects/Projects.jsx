@@ -12,7 +12,12 @@ function Projects() {
     <section id='projects' className='fade-in-animation max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
       <h1 className='montserrat tracking-wider text-4xl text-center font-bold text-white'>PROJECTS</h1>
       <p className='text center py-4 montserrat montserrat-light'>
-        <span className='text-2xl'>W</span>elcome to my projects section! Here, you'll find a collection of my work showcasing my expertise in web development, backend development, and programming languages such as JavaScript, Python, and C++. I have experience with technologies like React, Node.js, Express.js, and MongoDB, and I have worked on various projects related to data analysis and visualization. Each project demonstrates my ability to integrate systems, solve complex problems, and stay updated with the latest technologies. Explore my projects to see how I bring ideas to life through code and innovation.
+        <span className='text-2xl'>W</span>elcome to my projects section! Here, you'll find a collection of my work showcasing my expertise in web development, backend development, and programming languages such as JavaScript, Python, and C++. I have experience with technologies like
+        <span className='text-xl text-[#4DB33D]'> MongoDB</span>,
+        <span className='text-xl text-[#a5a0a0]'> Express.js</span>,
+        <span className='text-xl text-[#61DBFB]'> React</span> and
+        <span className='text-xl text-[#3C873A]'> Node.js</span>.
+        Each project demonstrates my ability to integrate systems, solve complex problems, and stay updated with the latest technologies. Explore my projects to see how I bring ideas to life through code and innovation.
 
         <span className='block text-lg'>
           Feel free to customize it further to match your style and specific projects!
